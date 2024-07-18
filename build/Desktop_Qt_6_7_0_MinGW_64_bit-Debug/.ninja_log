@@ -1,0 +1,25 @@
+# ninja log v5
+4	204	7430185264012418	aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+4	204	7430185264012418	aemo_autogen/timestamp	7fc5df1a186878a5
+4	204	7430185264012418	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/timestamp	7fc5df1a186878a5
+4	204	7430185264012418	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+2070	2308	7430185285008326	aemo.exe	177a668eab833c4
+602	2332	7430184186781525	CMakeFiles/aemo.dir/aemo_autogen/mocs_compilation.cpp.obj	6e7d5bea9f87b51
+624	2454	7430184188016751	CMakeFiles/aemo.dir/main.cpp.obj	766e4ba8a98daac3
+206	2070	7430185282657646	CMakeFiles/aemo.dir/mainwindow.cpp.obj	bd0dd1b28239e8f0
+4	210	7430185593673536	aemo_autogen/timestamp	7fc5df1a186878a5
+4	210	7430185593673536	aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+4	210	7430185593673536	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/timestamp	7fc5df1a186878a5
+4	210	7430185593673536	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+212	2063	7430185612200731	CMakeFiles/aemo.dir/mainwindow.cpp.obj	bd0dd1b28239e8f0
+2063	2301	7430185614542462	aemo.exe	177a668eab833c4
+4	549	7430186321691037	aemo_autogen/timestamp	7fc5df1a186878a5
+4	549	7430186321691037	aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+4	549	7430186321691037	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/timestamp	7fc5df1a186878a5
+4	549	7430186321691037	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+549	1928	7430186336208517	CMakeFiles/aemo.dir/aemo_autogen/mocs_compilation.cpp.obj	6e7d5bea9f87b51
+562	1936	7430186336288445	CMakeFiles/aemo.dir/main.cpp.obj	766e4ba8a98daac3
+571	2398	7430186340841636	CMakeFiles/aemo.dir/mainwindow.cpp.obj	bd0dd1b28239e8f0
+2398	2646	7430186343318737	aemo.exe	177a668eab833c4
+4	1440	7430186380103305	CMakeFiles/aemo.dir/aemo_autogen/mocs_compilation.cpp.obj	6e7d5bea9f87b51
+1441	1702	7430186382634512	aemo.exe	177a668eab833c4
