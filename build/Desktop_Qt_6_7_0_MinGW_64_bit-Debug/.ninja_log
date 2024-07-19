@@ -53,3 +53,11 @@
 4	254	7430685076273896	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
 256	2436	7430685098214289	CMakeFiles/aemo.dir/mainwindow.cpp.obj	bd0dd1b28239e8f0
 2436	2663	7430685100366044	aemo.exe	177a668eab833c4
+4	681	7430696484127004	aemo_autogen/timestamp	7fc5df1a186878a5
+4	681	7430696484127004	aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+4	681	7430696484127004	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/timestamp	7fc5df1a186878a5
+4	681	7430696484127004	D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/mocs_compilation.cpp	7fc5df1a186878a5
+696	2732	7430696505574180	CMakeFiles/aemo.dir/aemo_autogen/mocs_compilation.cpp.obj	6e7d5bea9f87b51
+682	2774	7430696506015325	CMakeFiles/aemo.dir/main.cpp.obj	766e4ba8a98daac3
+712	3225	7430696510504152	CMakeFiles/aemo.dir/mainwindow.cpp.obj	bd0dd1b28239e8f0
+3225	3487	7430696513035927	aemo.exe	177a668eab833c4

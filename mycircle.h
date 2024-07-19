@@ -21,9 +21,6 @@ public:
     {
         stream<<x<<" "<<y<<" "<<r<<" "<<red<<" "<<green<<" "<<blue<<'\n';
     }
-    //  virtual void saveColor(QColor &selectedColor) override
-    // {
-    //      temp_color=selectedColor;
-    // }等下删了
+
 };
 #endif // MYCIRCLE_H

@@ -11,8 +11,6 @@ public:
     int h;
     QColor m_color=Qt::black;
 
-    //QColor m_color;
-
 
     myrect(int x, int y, int w, int h) : x(x), y(y), w(w), h(h) {}
     myrect(){}

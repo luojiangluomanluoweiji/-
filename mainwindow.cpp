@@ -55,6 +55,8 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+
 void MainWindow::savefile()
 {
     //代码改进：在class里加一个QString path
@@ -168,8 +170,8 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
 void MainWindow::changeColor() {
 
     temp_color= QColorDialog::getColor(Qt::black,this);
-    if (temp_color.isValid()) {
-
+    if (temp_color.isValid())
+    {
 
     }
 

@@ -400,9 +400,9 @@ D:/qt profram/aemo/mainwindow.h
  mdp:E:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h
  mdp:E:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:E:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
-D:/qt profram/aemo/myrect.h
-D:/qt profram/aemo/main.cpp
 D:/qt profram/aemo/mainwindow.cpp
  uic:./ui_mainwindow.h
+D:/qt profram/aemo/main.cpp
+D:/qt profram/aemo/myrect.h
 D:/qt profram/aemo/mycircle.h
 D:/qt profram/aemo/myshape.h
