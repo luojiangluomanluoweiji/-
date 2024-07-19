@@ -1,5 +1,6 @@
 D:/qt\ profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/qt\ profram/aemo/mainwindow.h \
   D:/qt\ profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/moc_predefs.h \
+  D:/qt\ profram/aemo/myshape.h \
   E:/Qt/6.7.0/mingw_64/include/QtCore/QList \
   E:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   E:/Qt/6.7.0/mingw_64/include/QtCore/QRect \

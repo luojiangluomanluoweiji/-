@@ -1,5 +1,10 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "myshape.h"
+#include "mycircle.h"
+#include "myrect.h"
+
+#include <QDebug>
 #include<QFile>
 #include<QPen>
 #include<QColor>
@@ -76,21 +81,30 @@ void MainWindow::openfile()
         {
             QString s=mystream.readLine();
             QStringList ss=s.split(" ");
-            if(ss.size()==3)
+            if(ss.size()==6)
             {
                 mycircle *circleobj=new mycircle();
                 circleobj->x=ss[0].toInt();
                 circleobj->y=ss[1].toInt();
                 circleobj->r=ss[2].toInt();
+                circleobj->red=ss[3].toInt();
+                circleobj->green=ss[4].toInt();
+                circleobj->blue=ss[5].toInt();
+
+
                 shapelist.push_back(circleobj);
             }
-            if(ss.size()==4)
+            if(ss.size()==7)
             {
                 myrect *rectobj=new myrect();
                 rectobj->x=ss[0].toInt();
                 rectobj->y=ss[1].toInt();
                 rectobj->w=ss[2].toInt();
                 rectobj->h=ss[3].toInt();
+                rectobj->red=ss[4].toInt();
+                rectobj->green=ss[5].toInt();
+                rectobj->blue=ss[6].toInt();
+
                 shapelist.push_back(rectobj);
             }
         }
@@ -117,8 +131,18 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
         circleob->r=50;
         circleob->x=pt.rx();
         circleob->y=pt.ry();
-        shapelist.push_back(circleob);
-        //history.push_back(circleob);
+        circleob->m_color=temp_color;
+        circleob->red=circleob->m_color.red();
+        circleob->green=circleob->m_color.green();
+        circleob->blue=circleob->m_color.blue();
+
+
+
+        shapelist.push_back(circleob);//先让shapelist加一个，这样才有下面的判断
+
+
+
+
     }
     if(operateflag==2)
     {
@@ -129,6 +153,10 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
         rectobj->y=pt.ry();
         rectobj->w=50;
         rectobj->h=30;
+        rectobj->m_color=temp_color;
+        rectobj->red=rectobj->m_color.red();
+        rectobj->green=rectobj->m_color.green();
+        rectobj->blue=rectobj->m_color.blue();
         shapelist.push_back(rectobj);
         //history.push_back(rectobj);
 
@@ -138,11 +166,14 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
 }
 
 void MainWindow::changeColor() {
-    QColor selectedColor = QColorDialog::getColor(Qt::black, this);
-    if (selectedColor.isValid()) {
-        mPen.setColor(selectedColor);
-        color = selectedColor; // 假设你已经在 MainWindow 类中定义了 QColor color;
+
+    temp_color= QColorDialog::getColor(Qt::black,this);
+    if (temp_color.isValid()) {
+
+
     }
+
+
 }
 
 
@@ -162,30 +193,19 @@ void MainWindow::redo()
     update();
 }
 
-/*void MainWindow::paintEvent(QPaintEvent *event)
-{
-    QPainter *p;
-    QPen pen;
-    p=new QPainter(this);
 
-    for(int i=0;i<shapelist.size();i++){
-
-         shapelist[i]->draw(p);
-
-
-
-    }
-
-    delete p;
-}*/
 
 //update()函数会触发这个函数
 void MainWindow::paintEvent(QPaintEvent *event)
 {
     QPainter painter(this);
-    painter.setPen(mPen); // 使用 mPen 来绘制，它会使用用户选择的颜色
+     // 使用 mPen 来绘制，它会使用用户选择的颜色
+    QPen mPen;
+    for (int i = 0; i < shapelist.size(); i++)
+    {
 
-    for (int i = 0; i < shapelist.size(); i++) {
-        shapelist[i]->draw(&painter);
+    mPen.setColor(QColor(shapelist[i]->red,shapelist[i]->green,shapelist[i]->blue));
+    painter.setPen(mPen);
+    shapelist[i]->draw(&painter);
     }
 }

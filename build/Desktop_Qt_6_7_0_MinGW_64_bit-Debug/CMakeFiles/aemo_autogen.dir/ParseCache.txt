@@ -3,6 +3,7 @@ D:/qt profram/aemo/mainwindow.h
  mmc:Q_OBJECT
  mdp:D:/qt profram/aemo/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/aemo_autogen/moc_predefs.h
  mdp:D:/qt profram/aemo/mainwindow.h
+ mdp:D:/qt profram/aemo/myshape.h
  mdp:E:/Qt/6.7.0/mingw_64/include/QtCore/QList
  mdp:E:/Qt/6.7.0/mingw_64/include/QtCore/QObject
  mdp:E:/Qt/6.7.0/mingw_64/include/QtCore/QRect
@@ -399,6 +400,9 @@ D:/qt profram/aemo/mainwindow.h
  mdp:E:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h
  mdp:E:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:E:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+D:/qt profram/aemo/myrect.h
+D:/qt profram/aemo/main.cpp
 D:/qt profram/aemo/mainwindow.cpp
  uic:./ui_mainwindow.h
-D:/qt profram/aemo/main.cpp
+D:/qt profram/aemo/mycircle.h
+D:/qt profram/aemo/myshape.h
